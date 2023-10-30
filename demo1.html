@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x1 ul li{
+            color: white;
+            list-style: none;
+        }
+        .x1{
+            height: 100%;
+            width: 33.3%;
+            float: left;
+        }
+        .footer1{
+            height: 20%;
+            width: 100%;
+            
+        }
+        .footer2{
+            height: 60%;
+            width: 100%;
+            
+        }
+        .footer3{
+            height: 20%;
+            width: 100%;
+            
+        }
+        .footer{
+            height: 21%;
+            width: 100%;
+            /* border: 1px solid black; */
+            background-color: black;
+        }
+        .fotup{
+            height: 5%;
+            width: 100%;
+            /* border: 1px solid black; */
+        }
+        .br1{
+            height: 100%;
+            width: 40%;
+            float: left;
+            
+        }
+        .br2{
+            float: left;
+            height: 100%;
+            width: 60%;
+
+        }
+        .barcode{
+            height: 10%;
+            width: 100%;
+            /* border: 1px solid black; */
+        }
+        .barcode1{
+            height: 65.5%;
+            width: 48%;
+            float: left;
+            /* border: 1px solid black; */
+        }
+        .barcode2{
+            height: 65.5%;
+            width: 48%;
+            float: left;
+            margin-left: 4%;
+            /* border: 1px solid black; */
+        }
+        .tem1 {
+            height: 100%;
+            width: 30%;
+            /* border: 1px solid black; */
+            float: left;
+            /* background-image: url(ima) */
+            
+        }
+
+        .tem2 {
+            height: 100%;
+            float: left;
+            width: 70%;
+            /* border: 1px solid black; */
+        }
+
+        .te1 {
+            height: 50%;
+            border: 100%;
+            /* border: 1px solid black; */
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .outer {
+            height: 2000px;
+            width: 100%;
+            /* border: 1px solid black; */
+            margin: 0px auto;
+            
+        }
+
+        .outer2 {
+            height: 100%;
+            width: 70%;
+            /* border: 1px solid black; */
+            margin: auto;
+            background-color: rgb(243, 240, 240);
+        }
+
+        .navbar {
+            height: 3%;
+            width: 100%;
+            /* border: 1px solid black; */
+            background-color: black;
+        }
+
+        .box {
+            height: 100%;
+            width: 15%;
+            /* border: 1px solid black; */
+            float: left;
+            line-height: 50px;
+            text-align: center;
+            color: white;
+
+            font-size: 30px;
+        }
+
+        .box1 {
+            height: 100%;
+            width: 45%;
+            /* border: 1px solid black; */
+            float: left;
+
+        }
+
+        .box2 {
+            height: 100%;
+            width: 40%;
+            /* border: 1px solid black; */
+            float: left;
+        }
+
+        .box1 ul li {
+            display: inline-block;
+            margin-left: 20px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .box2 ul li {
+            display: inline-block;
+            margin-left: 40px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .slider {
+            height: 20%;
+            width: 100%;
+            /* border: 1px solid black; */
+            background-image: url(images/slider1.jpg);
+            background-size: 100% 100%;
+            /* background: rgba(0,0,0,0.1); */
+            /* filter: blur(5px); */
+            background-repeat: no-repeat;
+        }
+
+        .slidercon {
+            height: 90%;
+            width: 40%;
+            /* margin: 20px; */
+            margin-left: 15%;
+            margin-top: 2%;
+            /* border: 5px solid black; */
+            box-shadow: 0px 0px 1px 0px;
+            backdrop-filter: blur(50px);
+            /* background-color: white; */
+        }
+
+        .sli1 {
+            height: 20%;
+            width: 100%;
+            /* border: 1px sollid black; */
+        }
+
+        .sli2 {
+            height: 80%;
+            width: 100%;
+            /* border: 1px solid black; */
+        }
+
+        .inp {
+            height: 30px;
+            width: 80%;
+            margin-left: 10%;
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(233, 226, 226);
+        }
+
+        .row3 {
+            height: 12%;
+            width: 100%;
+            /* border: 1px solid black; */
+            background-image: url(images/city5.webp);
+            background-size: cover;
+            /* background-repeat: no-repeat; */
+        }
+
+        .img {
+            height: 15%;
+            width: 100%;
+        }
+
+        .im1 {
+            height: 100%;
+            width: 48%;
+            /* border: 1px solid black; */
+            float: left;
+            background-image: url(images/male.jpeg);
+            border-radius: 5px;
+
+        }
+
+        .im2 {
+            border-radius: 5px;
+            height: 100%;
+            background-image: url(images/male2.jpeg);
+            margin-left: 4%;
+            float: left;
+            width: 48%;
+            /* border: 1px solid black; */
+        }
+
+        .ctn {
+            height: 13%;
+            width: 100%;
+            /* border: 1px solid black; */
+        }
+
+        .ctn1 {
+            height: 100%;
+            width: 48%;
+            float: left;
+        }
+
+        .ctn2 {
+            height: 100%;
+            margin-left: 4%;
+            width: 48%;
+            float: left;
+        }
+
+        .abot {
+            height: 12%;
+            width: 100%;
+
+        }
+
+        .abot1 {
+            height: 100%;
+            width: 32%;
+            float: left;
+            margin-left: 2%;
+        }
+
+        .abot2 {
+            height: 100%;
+            width: 32%;
+            margin-left: 2%;
+            float: left;
+        }
+
+        .abot3 {
+            height: 100%;
+            width: 32%;
+
+            float: left;
+        }
+
+        .tempu {
+            height: 20%;
+            width: 100%;
+            /* border: 1px solid black; */
+            
+        }
+
+        .temp1 {
+            height: 83.5%;
+            width: 50%;
+            float: left;
+            /* border: 1px solid black; */
+        }
+
+        .temp2 {
+            height: 83.5%;
+            /* border: 1px solid black; */
+            width: 50%;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="outer">
+        <div class="navbar">
+            <div class="box">Uber</div>
+            <div class="box1">
+                <ul>
+                    <a href="#">
+                        <li>Company</li>
+                    </a>
+                    <a href="#">
+                        <li>Safty</li>
+                    </a>
+                    <a href="#">
+                        <li>Help</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="box2">
+                <ul>
+                    <a href="#">
+                        <li>En</li>
+                    </a>
+                    <a href="#">
+                        <li>Product</li>
+                    </a>
+                    <a href="#">
+                        <li>Log In</li>
+                    </a>
+                    <input value="Sign up"
+                        style="background-color: white;color: black;font-weight: bold; border-radius: 50px; height: 35px;margin-left: 30px;width: 100px;margin-top: -5px;"
+                        type="submit">
+                </ul>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="slidercon">
+                <div class="sli1">
+                    <br>
+                    <b
+                        style="margin-left: 50px;color: rgb(201, 200, 200); border-bottom: 3px solid rgb(201, 200, 200);;">Ride</b>
+                    <b style="margin-left: 50px;color: rgb(201, 200, 200); ">Drive or Delever</b>
+                    <b style="margin-left: 50px;color: rgb(201, 200, 200); ">Rent your fleet</b>
+                    <hr>
+                </div>
+                <div class="sli2">
+                    <h1 style="color: rgb(233, 226, 226);;">Request a ride now</h1>
+                    <input class="inp" placeholder="Enter pickup location" type="text">
+                    <br>
+                    <br>
+                    <input class="inp" placeholder="Enter destination" type="text">
+                    <br><br>
+                    <input value="Request now"
+                        style="background-color: black;color: white;border: none;border-radius: 5px; height: 30px;width: 100px;margin-left: 50px;"
+                        type="submit">
+                    <input value="Schedule for latter"
+                        style="background-color: rgb(233, 226, 226); border: none;border-radius: 5px; height: 30px;width: 120px;margin-left: 30px;"
+                        type="submit">
+
+
+                </div>
+            </div>
+        </div>
+        <div class="row3">
+            <h1 style="color:rgb(201, 200, 200);padding-left: 200px;">The Uber you Know,reimaigined for business</h1>
+            <p style="color: rgb(233, 226, 226);padding-left: 200px;">A plateform for managing global rides and meals,
+                and local delivers, for comapany of any size </p>
+            <input style="border-radius: 5px; border: none; margin-left: 200px; height: 30px;width: 100px;"
+                type="submit">
+        </div>
+        <div class="outer2">
+            <h2>Focused on sefty, where you go</h2>
+
+            <div class="img">
+                <div class="im1"></div>
+                <div class="im2"></div>
+            </div>
+            <div class="ctn">
+                <div class="ctn1">
+                    <br>
+                    <b>Our commiti to your safty</b>
+                    <p style="text-align: justify;">With commitee features and every standered in our comunity Guidlnes
+                    </p>
+                    <p style="text-align: justify;">Lorem ipsum dolor sit amet.</p>
+                    <p style="text-align: justify;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, id.
+                    </p>
+                </div>
+                <div class="ctn2">
+                    <br>
+                    <b>Setting 10,000+ cities motion</b>
+                    <p style="text-align: justify;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
+                        quam fugit a facere animi
+                        assumenda cumque aspernatur maiores numquam modi.</p>
+                    <br>
+                    <b style="border-bottom: 1px solid gray;">View all cities</b>
+                </div>
+            </div>
+            <div class="abot">
+                <div class="abot1">
+                    <br>
+                    <b>About us</b>
+                    <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+                        aperiam?</p>
+                    <br><br>
+                    <b style="border-bottom:1px solid gray;">
+                        Learn more about us
+                    </b>
+                </div>
+                <div class="abot2">
+                    <br>
+                    <b>Newsroom</b>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, aperiam?</p>
+                    <br><br>
+                    <b style="border-bottom:1px solid gray;">
+                        Go to Newsroom
+                    </b>
+                </div>
+                <div class="abot3">
+                    <br>
+                    <b>Global citizenship</b>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, aperiam?</p>
+                    <br><br>
+                    <b style="border-bottom:1px solid gray;">
+                        See our Partnership
+                    </b>
+                </div>
+
+            </div>
+
+
+            <div class="tempu">
+                <h2>Ride with Uber</h2>
+                <div class="temp1">
+                    <div class="te1">
+                        <div class="tem1">
+                            <img style="height: 100px;" src="images/a1.jpeg" alt="">
+                        </div>
+                        <div class="tem2">
+                            <br>
+                            <b style="font-size: 20px;">Uber Auto</b>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quaerat itaque
+                                suscipit iste quos dolore tempore id esse quidem earum.</p>
+                        </div>
+                    </div>
+                    <div class="te1">
+                        <div class="tem1">
+                            <img style="height: 100px;" src="images/a2.jpeg" alt="">
+                        </div>
+                        <div class="tem2">
+                            <br>
+                            <b style="font-size: 20px;">Uber Rentals</b>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quaerat itaque
+                                suscipit iste quos dolore tempore id esse quidem earum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="temp2">
+                    <div class="te1">
+                        <div class="tem1">
+                            <img style="height: 100px;" src="images/a3.jpeg" alt="">
+                        </div>
+                        <div class="tem2">
+                            <br>
+                            <b style="font-size: 20px;">Uber Moto</b>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quaerat itaque
+                                suscipit iste quos dolore tempore id esse quidem earum.</p>
+                        </div>
+                    </div>
+                    <div class="te1">
+                        <div class="tem1">
+                            <img style="height: 100px;" src="images/a4.jpeg" alt="">
+                        </div>
+                        <div class="tem2">
+                            <br>
+                            <b style="font-size: 20px;">Uber Intercity</b>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quaerat itaque
+                                suscipit iste quos dolore tempore id esse quidem earum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="barcode">
+                <h2>I'ts easier in the apps</h2>
+                <div class="barcode1">
+                    <div class="br1">
+                        <img height="128px" src="images/code.jpeg" alt="">
+                    </div>
+                    <div class="br2">
+                        <br>
+                        <b>Download the Uber app</b>
+                        &rarr;
+                        <p>Scan the barcode</p>
+                    </div>
+                </div>
+                <div class="barcode2">
+                    <div class="br1">
+                        <img height="128px" src="images/code1.jpeg" alt="">
+                    </div>
+                    <div class="br2">
+                        <br>
+                        <b>Download the Uber app</b>
+                        &rarr;
+                        <p>Scan the barcode</p> 
+                    </div>
+                    
+                </div>
+                </div>
+                <div class="fotup">
+                    <b style="padding: 10%;line-height: 80px;font-size: 20px;"> Sign up to drive &rarr;</b>
+                    <b style="padding: 15%;line-height: 80px;font-size: 20px;">Sign up to drive &rarr;</b>
+                </div>
+                <div class="footer">
+                    <div style="color: white;" class="footer1">
+                        <br>
+                        <b>Uber</b>
+                        <br><br>
+                        <p>Visit Help Center</p>
+                    </div>
+                    <div class="footer2">
+                        <div style="color: white;" class="x1">
+                            <br><br>
+                            <b>Company</b>
+                            <ul>
+                                <li>About us</li>
+                                <li>Our offerring</li>
+                                <li>Newsroom</li>
+                                <li>Invetors</li>
+                                <li>Blog</li>
+                                <li>Careers</li>
+                                <li>AI</li>
+                                <li>Gift Cards</li>
+                            </ul>
+                        </div>
+                        <div style="color: white;" class="x1">
+                            <br><br>
+                            <b>Products</b>
+                            <ul>
+                                <li>Ride</li>
+                                <li>Drive</li>
+                                <li>Deliver</li>
+                                <li>Uber for business</li>
+                                <li>Uber freight</li>
+                                
+                            </ul>
+                        </div>
+                        <div style="color: white;" class="x1">
+                            <br><br>
+                            <b>Global citizenship</b>
+                            <ul>
+                                <li>Safty</li>
+                                <li>Driversity</li>
+                                <li>Sustaintaly</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer3">
+                        <img style="height: 50px;" src="images/gpay.png" alt="">
+                        <img height="20px" style="height: 50px;" src="images/apple.jpg" alt="">
+                        <br>
+                        <b style="color: white;">Devlop by Er Rahul</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
